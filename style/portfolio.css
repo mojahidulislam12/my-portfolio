@@ -23,13 +23,16 @@ nav .menu {
     list-style: none;
     display: flex;
     gap: 51px;
-    padding-left: 240px;
+   
     align-items: center;
     
 }
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
+    background-position: top left ,bottom right;
+    background-repeat: no-repeat;
 }
 nav{
     width: 71%;
@@ -56,4 +59,44 @@ nav .menu a{
     font-size: 20px;
     font-weight: bold;
     color: white;
+   
+}
+#banner{
+    /* border: 1px solid red; */
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+
+}
+#banner .banner-content{
+    max-width: 585px;
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-content .btn{
+    height: 64px;
+    width: 200px;
+}
+#banner .banner-image{
+    height: 676px;
+   max-width: 584px;
 }
