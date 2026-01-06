@@ -62,8 +62,9 @@ nav .menu a{
    
 }
 .section-heading{
-    /* max-width: 827px; */
+    max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-heading h2{
     font-size: 35px;
@@ -118,12 +119,14 @@ nav .menu a{
     padding-top: 114px;
 }
 #about .about-container{
-    width: 1140px;
-    height: 550px;
+    /* width: 1140px;
+    height: 550px; */
+    width: 71%;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
     background-color: #FFF8F3;
-    padding: 131px 156.5px;
+    padding: 131px 144px;
 }
 #about .about-container .about-info{
     display: flex;
@@ -142,4 +145,43 @@ nav .menu a{
 .about-info .info-card h4{
   font-size: 20px;
   
+}
+#skill{
+   padding-top: 130px;
+}
+#skill .skill-container{
+   
+    width: 1140px;
+    height: 550px;
+    margin: 0 auto;
+
+}
+#skill .skill-container .skil-box{
+    display: flex;
+    gap: 24px;
+}
+.skil-box .skil-card{
+    padding: 30px;
+    border: 1px solid beige;
+    box-shadow: 0 6px 60px 0 #0000001b;
+    max-width: 267px;
+}
+.skil-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skil-card h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skil-card p{
+    max-width: 201px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    background-color: #FFFFFF;
+    
+
 }
